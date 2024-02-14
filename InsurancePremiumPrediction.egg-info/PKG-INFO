@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: InsurancePremiumPrediction
+Version: 0.0.1
+Author: Hans Raj
+Author-email: hansrajkr2120@gmail.com
+License-File: LICENSE
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: numpy

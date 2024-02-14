@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+InsurancePremiumPrediction.egg-info/PKG-INFO
+InsurancePremiumPrediction.egg-info/SOURCES.txt
+InsurancePremiumPrediction.egg-info/dependency_links.txt
+InsurancePremiumPrediction.egg-info/requires.txt
+InsurancePremiumPrediction.egg-info/top_level.txt
