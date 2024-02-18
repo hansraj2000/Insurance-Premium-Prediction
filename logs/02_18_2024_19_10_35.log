@@ -1,0 +1,11 @@
+[2024-02-18 19:10:38,824] 224 werkzeug - WARNING -  * Debugger is active!
+[2024-02-18 19:10:38,846] 224 werkzeug - INFO -  * Debugger PIN: 938-948-602
+[2024-02-18 19:10:46,257] 224 werkzeug - INFO - 192.168.0.106 - - [18/Feb/2024 19:10:46] "GET /predict HTTP/1.1" 200 -
+[2024-02-18 19:10:48,712] 224 werkzeug - INFO - 192.168.0.106 - - [18/Feb/2024 19:10:48] "GET / HTTP/1.1" 200 -
+[2024-02-18 19:10:58,944] 224 werkzeug - INFO - 192.168.0.106 - - [18/Feb/2024 19:10:58] "GET /predict HTTP/1.1" 200 -
+[2024-02-18 19:15:06,057] 224 werkzeug - INFO - 192.168.0.106 - - [18/Feb/2024 19:15:06] "GET /predict HTTP/1.1" 200 -
+[2024-02-18 19:15:32,500] 62 root - INFO - Dataframe Gathered
+[2024-02-18 19:15:34,980] 224 werkzeug - INFO - 192.168.0.106 - - [18/Feb/2024 19:15:34] "POST /predict HTTP/1.1" 200 -
+[2024-02-18 19:16:22,780] 62 root - INFO - Dataframe Gathered
+[2024-02-18 19:16:22,805] 224 werkzeug - INFO - 192.168.0.106 - - [18/Feb/2024 19:16:22] "POST /predict HTTP/1.1" 200 -
+[2024-02-18 19:18:12,458] 224 werkzeug - INFO - 192.168.0.106 - - [18/Feb/2024 19:18:12] "GET /predict HTTP/1.1" 200 -

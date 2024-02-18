@@ -1,1 +1,4 @@
 /env
+/artifacts/raw.csv
+/artifacts/train.csv
+/artifacts/test.csv
