@@ -1,0 +1,24 @@
+[2024-02-17 17:37:59,197] 21 root - INFO - data ingestion started
+[2024-02-17 17:37:59,217] 25 root - INFO - I have read dataset as a df
+[2024-02-17 17:37:59,230] 29 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-02-17 17:37:59,230] 31 root - INFO - here i have performed train test split
+[2024-02-17 17:37:59,238] 34 root - INFO - train test split completed
+[2024-02-17 17:37:59,250] 39 root - INFO - data ingestion part completed
+[2024-02-17 17:37:59,289] 80 root - INFO - read train and test data complete
+[2024-02-17 17:37:59,298] 81 root - INFO - Train Dataframe Head : 
+   age     sex   bmi  children smoker     region  expenses
+0   61  female  35.9         0     no  northeast  13635.64
+1   44  female  39.0         0    yes  northwest  42983.46
+2   32    male  37.3         1     no  northeast   4667.61
+3   34    male  27.8         1    yes  northwest  20009.63
+4   49  female  23.2         2     no  northwest  10156.78
+[2024-02-17 17:37:59,302] 82 root - INFO - Test Dataframe Head : 
+   age     sex   bmi  children smoker     region  expenses
+0   38  female  30.2         3     no  northwest   7537.16
+1   39  female  22.8         3     no  northeast   7985.82
+2   63  female  31.8         0     no  southwest  13880.95
+3   22    male  35.6         0    yes  southwest  35585.58
+4   55    male  33.9         3     no  southeast  11987.17
+[2024-02-17 17:37:59,302] 28 root - INFO - Data Transformation initiated
+[2024-02-17 17:37:59,302] 39 root - INFO - Pipeline Initiated
+[2024-02-17 17:37:59,306] 117 root - INFO - Exception occured in the initiate_datatransformation
