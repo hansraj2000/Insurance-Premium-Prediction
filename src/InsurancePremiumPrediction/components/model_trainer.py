@@ -36,7 +36,7 @@ class ModelTrainer:
             'LinearRegression':LinearRegression(),
             'DT' : DecisionTreeRegressor(max_depth=4,splitter="best"),
             'RandonForest' : RandomForestRegressor(),
-            'GradientB' : GradientBoostingRegressor(),
+            'GradientB' : GradientBoostingRegressor(learning_rate = 0.05, max_depth = 3, min_samples_leaf = 4, min_samples_split = 2, n_estimators = 100, subsample = 0.8),
         }
             
             model_report:dict=evaluate_model(X_train,y_train,X_test,y_test,models)
