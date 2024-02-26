@@ -1,0 +1,28 @@
+[2024-02-26 16:41:45,217] 21 root - INFO - data ingestion started
+[2024-02-26 16:41:45,227] 25 root - INFO - I have read dataset as a df
+[2024-02-26 16:41:45,241] 29 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-02-26 16:41:45,241] 31 root - INFO - here i have performed train test split
+[2024-02-26 16:41:45,243] 34 root - INFO - train test split completed
+[2024-02-26 16:41:45,252] 39 root - INFO - data ingestion part completed
+[2024-02-26 16:41:45,289] 80 root - INFO - read train and test data complete
+[2024-02-26 16:41:45,295] 81 root - INFO - Train Dataframe Head : 
+   age     sex   bmi  children smoker     region  expenses
+0   45  female  28.6         2     no  southeast   8516.83
+1   49  female  30.8         1     no  northeast   9778.35
+2   45  female  33.1         0     no  southwest   7345.08
+3   54  female  32.3         1     no  northeast  11512.41
+4   44    male  30.7         2     no  southeast   7731.43
+[2024-02-26 16:41:45,302] 82 root - INFO - Test Dataframe Head : 
+   age     sex   bmi  children smoker     region  expenses
+0   47    male  38.9         2    yes  southeast  44202.65
+1   63  female  32.2         2    yes  southwest  47305.31
+2   50    male  32.2         0     no  northwest   8835.26
+3   55    male  37.7         3     no  northwest  30063.58
+4   46    male  30.5         3    yes  northwest  40720.55
+[2024-02-26 16:41:45,302] 28 root - INFO - Data Transformation initiated
+[2024-02-26 16:41:45,302] 39 root - INFO - Pipeline Initiated
+[2024-02-26 16:41:45,332] 99 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-02-26 16:41:45,334] 109 root - INFO - preprocessing pickle file saved
+[2024-02-26 16:41:45,334] 27 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-02-26 16:41:46,471] 45 root - INFO - Model Report : {'LinearRegression': 0.7777264438308515, 'DT': 0.8462297707932382, 'RandonForest': 0.8517310956409249, 'GradientB': 0.867970298128485}
+[2024-02-26 16:41:46,472] 58 root - INFO - Best Model Found , Model Name : GradientB , R2 Score : 0.867970298128485

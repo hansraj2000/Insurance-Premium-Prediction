@@ -31,7 +31,7 @@ class ModelEvaluation:
 
         
 
-            mlflow.set_registry_uri("https://dagshub.com/hansraj2000/FSDSMENDTOEND.mlflow")
+            mlflow.set_registry_uri("https://dagshub.com/hansraj2000/Insurance-Premium-Prediction.mlflow")
             
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
             
@@ -58,11 +58,7 @@ class ModelEvaluation:
                     # https://mlflow.org/docs/latest/model-registry.html#api-workflow
                     mlflow.sklearn.log_model(model, "model", registered_model_name="ml_model")
                 else:
-                    mlflow.sklearn.log_model(model, "model")
-
-
-                
-
+                    mlflow.sklearn.log_model(model, "model") 
             
         except Exception as e:
             raise e
