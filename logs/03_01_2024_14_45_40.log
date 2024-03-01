@@ -1,0 +1,28 @@
+[2024-03-01 14:45:45,087] 21 root - INFO - data ingestion started
+[2024-03-01 14:45:45,096] 25 root - INFO - I have read dataset as a df
+[2024-03-01 14:45:45,105] 29 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-03-01 14:45:45,107] 31 root - INFO - here i have performed train test split
+[2024-03-01 14:45:45,109] 34 root - INFO - train test split completed
+[2024-03-01 14:45:45,122] 39 root - INFO - data ingestion part completed
+[2024-03-01 14:45:45,151] 80 root - INFO - read train and test data complete
+[2024-03-01 14:45:45,157] 81 root - INFO - Train Dataframe Head : 
+   age     sex   bmi  children smoker     region  expenses
+0   46    male  22.3         0     no  southwest   7147.11
+1   62  female  26.3         0    yes  southeast  27808.73
+2   22    male  32.1         0     no  northwest   2055.32
+3   24    male  23.7         0     no  northwest   2352.97
+4   55    male  35.2         1     no  northeast  11394.07
+[2024-03-01 14:45:45,168] 82 root - INFO - Test Dataframe Head : 
+   age     sex   bmi  children smoker     region  expenses
+0   62    male  39.9         0     no  southeast  12982.87
+1   37    male  30.8         0     no  southwest   4646.76
+2   36    male  31.5         0     no  southwest   4402.23
+3   36  female  29.9         1     no  southeast   5478.04
+4   45    male  21.4         0     no  northwest   7222.79
+[2024-03-01 14:45:45,168] 28 root - INFO - Data Transformation initiated
+[2024-03-01 14:45:45,168] 39 root - INFO - Pipeline Initiated
+[2024-03-01 14:45:45,209] 99 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-03-01 14:45:45,209] 109 root - INFO - preprocessing pickle file saved
+[2024-03-01 14:45:45,209] 27 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-03-01 14:45:46,142] 45 root - INFO - Model Report : {'LinearRegression': 0.7115947141112624, 'DT': 0.8358603325094867, 'RandonForest': 0.8167034678213204, 'GradientB': 0.8328852676880812}
+[2024-03-01 14:45:46,144] 58 root - INFO - Best Model Found , Model Name : DT , R2 Score : 0.8358603325094867

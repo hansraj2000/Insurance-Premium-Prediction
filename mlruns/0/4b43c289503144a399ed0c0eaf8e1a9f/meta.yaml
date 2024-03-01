@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Coding%20Stuff/FSDS/Internship/Insurance%20Premium%20Prediction/mlruns/0/4b43c289503144a399ed0c0eaf8e1a9f/artifacts
+end_time: 1709284605055
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4b43c289503144a399ed0c0eaf8e1a9f
+run_name: bold-shoat-906
+run_uuid: 4b43c289503144a399ed0c0eaf8e1a9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709284596291
+status: 3
+tags: []
+user_id: Hans Raj
