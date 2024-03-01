@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Coding%20Stuff/FSDS/Internship/Insurance%20Premium%20Prediction/mlruns/0/2f26464380574284bc7a18a7fcc95d07/artifacts
+end_time: 1709208217952
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2f26464380574284bc7a18a7fcc95d07
+run_name: hilarious-cod-517
+run_uuid: 2f26464380574284bc7a18a7fcc95d07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709208203173
+status: 3
+tags: []
+user_id: Hans Raj
