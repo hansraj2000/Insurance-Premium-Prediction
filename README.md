@@ -1,8 +1,6 @@
-Application URL : [InsurancePremiumPredictor]()
-
 
 <h1 align="center"> Insurance Premium Prediction Internship Project </h1>
-The goal of this project to give people an estimate of how much they need based on their individual health situation. After that, customers can work with any health insurance carrier and its plans and perks whilwe keeping the projected cost from our study in mind. This can assist a person in concentrating on the health side of an insurance policy rather than the ineffective parts.
+The goal of this project is to give people an estimate of how much they need based on their health situation. After that, customers can work with any health insurance carrier and its plans and perks while keeping the projected cost from our study in mind. This can assist a person in concentrating on the health side of an insurance policy rather than the ineffective parts.
 
 
 ## Table of contents
@@ -42,7 +40,7 @@ This project is created with below technologies/tools/resources:
 * AWS
 
 
-## Software and account Requirement :-
+## Software and account Requirement:-
 1. [Github Account](https://github.com/hansraj2000)
 2. [AWS Account](https://aws.amazon.com/?nc2=h_lg)
 3. [VS Code IDE](https://code.visualstudio.com/download)
@@ -60,16 +58,16 @@ activate conda environment
 conda activate env/
 ```
 
-To install requirement file
+To install the required file
 ```
 pip install -r requirements.txt
 ```
 
 * Add files to git  `git add .` or  `git add <file_name>`    
 * To check the git status  `git status`    
-* To check all version maintained by git  `git log`    
+* To check all versions maintained by git  `git log`    
 * To create version/commit all changes by git  `git commit -m "message"`    
-* To send version/changes to github  `git push origin main`    
+* To send version/changes to GitHub  `git push origin main`    
 
 
 ## Project Pipeline
@@ -84,7 +82,7 @@ pip install -r requirements.txt
 * Data ingestion is the process in which unstructured data is extracted from one or multiple sources and then prepared for training machine learning models.
 
 ### 2. Data Validation:
-* Data validation is an integral part of ML pipeline. It is checking the quality of source data before training a new mode
+* Data validation is an integral part of the ML pipeline. It is checking the quality of source data before training a new mode
 * It focuses on checking that the statistics of the new data are as expected (e.g. feature distribution, number of categories, etc). 
 
 ### 3. Data Transformation 
@@ -98,8 +96,8 @@ pip install -r requirements.txt
 * Model evaluation is the process of using different evaluation metrics to understand a machine learning model’s performance, as well as its strengths and weaknesses.
 * Model evaluation is important to assess the efficacy of a model during initial research phases, and it also plays a role in model monitoring.
 
-### 6. Model Deployement
-* Deployment is the method by which we integrate a machine learning model into production environment to make practical business decisions based on data. 
+### 6. Model Deployment
+* Deployment is the method by which we integrate a machine-learning model into the production environment to make practical business decisions based on data. 
 
 
 <p align="center">  
