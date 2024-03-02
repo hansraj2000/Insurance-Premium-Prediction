@@ -3,6 +3,8 @@
 The goal of this project is to give people an estimate of how much they need based on their health situation. After that, customers can work with any health insurance carrier and its plans and perks while keeping the projected cost from our study in mind. This can assist a person in concentrating on the health side of an insurance policy rather than the ineffective parts.
 
 
+
+
 ## Table of contents
 * [About project](#about-project)
 * [Technologies](#technologies)
@@ -11,7 +13,7 @@ The goal of this project is to give people an estimate of how much they need bas
 * [Project Pipeline](#project-pipeline)
 <!-- * [License](#license) -->
 
-
+![Project AWS Link](https://nqipw2vetf.us-east-1.awsapprunner.com )
 
 
 ## Technologies 💙
@@ -40,7 +42,7 @@ This project is created with below technologies/tools/resources:
 * AWS
 
 
-## Software and account Requirement:-
+## Software and account Requirements:-
 1. [Github Account](https://github.com/hansraj2000)
 2. [AWS Account](https://aws.amazon.com/?nc2=h_lg)
 3. [VS Code IDE](https://code.visualstudio.com/download)
